@@ -1,17 +1,11 @@
 # FIFA 2019 Position Prediction Project Overview
 * Created a linear discrimnant analysis (LDA) model that predicts player position (forward, midfielder, defender) with a cross-validated accuracy of 81%.
-* Used principal component analysis (PCA) and factor analysis to reduce dimensionality and explore variable factoring
-* Identified five factors among numeric variables (overall, defending ability, size and movement, potential, and physical ability)
+* Model can be used to assist club managers in determining what position best suits a player.
+* Used principal component analysis (PCA) and factor analysis to reduce dimensionality and explore relationships between predictor variables.
+* Identified five factors among numeric variables (overall, defending ability, size/movement, potential, and physical ability).
 
-## Packages Used
-* rgl
-* MASS
-* psych
-* corrplot
-* moments
-* ggplot2
-* numpy
-* pandas
+## Code and Resources Used
+**Packages:** rgl, MASS, psych, corrplot, moments, ggplot2, numpy, pandas
 
 ## Data Cleaning
 Cleaned 18,207 rows and 88 columns:
@@ -61,10 +55,6 @@ The 3D image below shows the separation of positions in the first three componen
 ![alt text](https://github.com/chelseako/FIFA_2019_Project/blob/main/PCA_Plot3D.png)
 
 ## Discussion
-Predicting player position may aid soccer club managers in understanding in which positions players may be most successful. 
-
-The LDA model built using the full dataset without the engineered PCA features had an overall accuracy of 86.04%, with approximately 11% higher accuracy for the midfielder position but approximately 1-2% lower accuracy for the defender and forward positions.  
-
-However, the full dataset had 66 numeric variables, and the decreased accuracy is worth the improved interpretability and parsimony of the model.
+The LDA model built using the full dataset without the engineered PCA features had an overall accuracy of 86.04%, with approximately 11% higher accuracy for the midfielder position but approximately 1-2% lower accuracy for the defender and forward positions.  However, the full dataset had 66 numeric variables, and the decreased accuracy is worth the improved interpretability and parsimony of the model.
 
 
