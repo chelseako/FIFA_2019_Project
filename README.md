@@ -52,7 +52,7 @@ The model performed best in discriminating the defender and forward positions bu
 
 The 3D image below shows the separation of positions in the first three components.
 
-![alt text](https://github.com/chelseako/FIFA_2019_Project/blob/main/pcaPlot3D.png)
+![alt text](https://github.com/chelseako/FIFA_2019_Project/blob/main/3Dplot.png)
 
 ## Discussion
 The LDA model built using the full dataset without the engineered PCA features had an overall accuracy of 86.04%, with approximately 11% higher accuracy for the midfielder position but approximately 1-2% lower accuracy for the defender and forward positions.  However, the full dataset had 66 numeric variables, and the decreased accuracy is worth the improved interpretability and parsimony of the model.
