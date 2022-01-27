@@ -4,7 +4,7 @@
 * Used principal component analysis (PCA) and factor analysis to reduce dimensionality and explore relationships between predictor variables.
 * Identified five factors among numeric variables (overall, defending ability, size/movement, potential, and physical ability).
 * As expected, the classifier had greater difficulty distinguishing between the midifielder and forward positions and the midfielder and defender positions, indicating greater overlap between midfielder and the other two positions.
-* If club managers need more forwards or defenders for their teams, they could examine their midfield players' stats on the five identified factors to identify midfielders that are more likely to be successful as a forward or defender.
+* Club managers could potentially examine their midfield players' stats on the five factors to identify players that are more likely to be successful as a forward or defender, if those positions needed to be filled.
 
 ## Code and Resources Used
 **Packages:** rgl, MASS, psych, corrplot, moments, ggplot2, numpy, pandas
